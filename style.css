@@ -1,8 +1,43 @@
 *{
     font-family: 'Georama', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #25161b;
+    
+}
+
+#main {
+    background-color: #453953;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+#img-div {
+    background-color: #975a5e;
+    width: 90%;
+    margin: auto;
 }
 
 #image {
-    width: 50%;
+    width: 100%;
+    padding: 5px;
+    margin: 10px auto;
+    display: block;
+}
+
+#img-caption {
+    display: block;
+    padding-bottom: 10px;
+}
+
+#tribute-info, footer {
+    background-color: #f3cba5;
+    color: #453953;
+    padding: 20px;
+    text-align: justify;
+    width: 90%;
     margin: auto;
 }
