@@ -4,28 +4,37 @@
 }
 
 body {
-    background-color: #25161b;
+    background-color: #453953;
     
 }
 
 #main {
-    background-color: #453953;
+    max-width: 900px;
+    margin: auto;
+    background-color: #25161b;
     text-align: center;
     color: white;
     border-radius: 5px;
+    padding: 10px;
 }
 
-#img-div {
+#img-div, #interview-history {
     background-color: #975a5e;
+    border-radius: 5px;
     width: 90%;
     margin: auto;
 }
 
-#image {
+#image, #jre-img {
     width: 100%;
-    padding: 5px;
+    max-width: max-content;
+    padding: 10px;
     margin: 10px auto;
     display: block;
+}
+
+#jre-img {
+    max-width: 200px;
 }
 
 #img-caption {
@@ -36,8 +45,24 @@ body {
 #tribute-info, footer {
     background-color: #f3cba5;
     color: #453953;
-    padding: 20px;
+    padding: 10px;
     text-align: justify;
     width: 90%;
     margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#interview-history{
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+#interview-history ul{
+    padding: 0;
+    margin: 5px;
+}
+
+#interview-history li{
+    list-style: none;
 }
