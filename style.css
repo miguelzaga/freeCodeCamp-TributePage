@@ -66,3 +66,17 @@ body {
 #interview-history li{
     list-style: none;
 }
+
+#interview-history iframe{
+    max-width: 600px;
+    margin: 10px 0;
+}
+
+footer {
+    padding: 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 5px 0;
+}
